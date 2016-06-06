@@ -20,7 +20,7 @@ def main():
         ais = []
         try:
             for i in range(amount_of_ais):
-                ais.append(AI("penguin", i+1, renderer, host, port))
+                ais.append(AI("The Machine Thread", i+1, renderer, host, port))
 
             for ai in ais:
                 ai.join()
